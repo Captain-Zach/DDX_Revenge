@@ -30,7 +30,7 @@ const SeeCases = (props) => {
     }
 
     useEffect(() => {
-        // axios.post("http://localhost:8000/wipeout/", {})
+
         refresh();
     }, []);
 
@@ -83,7 +83,6 @@ const SeeCases = (props) => {
                     <p>CASE {element}: 
                     <button onClick={(e) => spawnFocus(element)}>Focus</button>
                     <button>Swarm</button>
-                    
                     {/* <button onClick={() => {console.log("Not so fast")}}>Close (disabled)</button> */}
                     <button onClick={() => {deleteCase(element)}}>Delete</button>
                     <button>Transfer</button></p>

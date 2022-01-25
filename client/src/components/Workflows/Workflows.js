@@ -22,7 +22,7 @@ const Workflows = (props) => {
             <p></p>
             <button onClick={() => {stateShift("NewCase")}}>New Case (functional)</button>
             <p></p>
-            <button onClick={() => {stateShift("SeeCases")}}>See Cases (semi functional)</button>
+            <button onClick={() => {stateShift("SeeCases")}}>See Cases (se mi functional)</button>
         
         </div>
     )
